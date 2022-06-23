@@ -159,3 +159,21 @@ a{
 /* FINE SETTIMA SEZIONE */
 
 /* OTTAVA SEZIONE */
+
+.sect8{
+    margin: auto;
+    max-width: 1100px;
+    height: 400px;
+    border: 2px solid black;
+}
+
+/* FINE OTTAVA SEZIONE */
+
+/* FOOTER */
+
+.section9{
+    margin: auto;
+    max-width: 1100px;
+    height: 350px; 
+    background-color: #333;
+}
