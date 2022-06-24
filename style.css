@@ -123,6 +123,36 @@ a{
 
 /* FINE PRIMA SEZIONE */
 
+/* SECONDA SEZIONE PIANI TARIFFARI */
+
+.sect2{
+    margin: auto;
+}
+
+.section-title{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+#plans{
+    margin: 0 auto;
+}
+
+.radio-cont{
+    padding: 50px;
+}
+
+  /* CARDS */
+
+  .card-wrapper *{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0 auto;
+
+  }
+
 
 
 
