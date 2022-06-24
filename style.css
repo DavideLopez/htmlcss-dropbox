@@ -140,18 +140,22 @@ a{
     margin: 0 auto;
 }
 
-.radio-cont{
+.radio-wrapper{
     padding: 50px;
 }
 
   /* CARDS */
 
-  .card-wrapper *{
+.card-wrapper *{
     border: 1px solid black;
     padding: 20px;
     margin: 0 auto;
+    gap: 50px;
+}
 
-  }
+.col12{
+    flex-basis: calc(100% / 1);
+}  
 
 
 
