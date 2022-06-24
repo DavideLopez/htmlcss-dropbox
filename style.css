@@ -4,48 +4,76 @@
     box-sizing: border-box;
 }
 
+ul, li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-lg{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* NAV-BAR */
 
-.nav-bar{
-    max-width: 1100px;
-    height: 50px;
-    border: 2px solid black;
-    margin: auto;
-    line-height: 50px;
-}
-
-.topbar {
-    width: 1100px;
-    height: 50px;
+.main-header{
     display: flex;
-    justify-content: space-between;   
+    padding:25px 18px;
+    align-items: center;
+    gap: 20px;
 }
 
-.main-logo{
-    /* border: 2px solid black;
-    padding: 10px; */
+.logo-wrapper{
+    flex-shrink: 0;
+}
+
+.main-header .menu{
+    display: flex;
+    gap: 20px;
+
+}
+
+.main-header .main-nav{
+    margin-right: auto;
+}
+
+.menu{
+    margin-left: auto;
+}
+
+.main-header .menu-item{
 }
 
 a{
     text-decoration: none;
+    color: currentColor;
 }
 
-.leftmenu{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+.main-header .menu-item a{
+    padding: 0 16px ;
+    line-height: 35px;
 }
 
-.rightmenu{
-    display: flex;
-    flex-direction: row;
-    list-style: none;
+.main-header .menu .start{
+    background-color: blue;
+    color: white;
 }
-
-.start-button{
-    border: 2px solid black;
-    padding: 10px;
-}
+  /* FINE NAV-BAR */
 
 /* PRIMA SEZIONE */
 
@@ -62,6 +90,10 @@ a{
 
            SECONDA SEZIONE */
 
+.col{
+    border: 1px solid black;
+}
+
 .sect2{
     margin: auto;
     max-width: 1100px;
@@ -69,7 +101,12 @@ a{
     border: 2px solid black;
 } 
 
-        /* FINE PSECONDA SEZIONE 
+.col{
+    flex-grow: 1;
+    flex-basis: 0;  /* porta a 0 la larghezza delle colonne in questo caso */
+}
+
+        /* FINE SECONDA SEZIONE 
 
            TERZA SEZIONE  */
 
@@ -177,3 +214,5 @@ a{
     height: 350px; 
     background-color: #333;
 }
+
+/* ---------------------------------------------------------------- */
