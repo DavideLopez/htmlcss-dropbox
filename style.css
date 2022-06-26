@@ -238,103 +238,15 @@ a{
 } */
 
 
+        /* FINE  SEZIONE  CARDS */
 
+        /* SEZIONE  PARTNERS */
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        /* FINE SECONDA SEZIONE 
-
-           TERZA SEZIONE  */
-
-.sect3{
-    margin: auto;
-    max-width: 1100px;
-    height: 380px;
-    border: 2px solid black;
-    display: flex;
-    justify-content: space-between;
-}
-
-.partner-photo{
-    margin-top: 100px;
-    margin-left: 100px;
-    border: 2px solid black;
-}
-
-.partner-text{
-    margin-top: 100px;
-    margin-right: 100px;
-    border: 2px solid black;
-}
-
-/* FINE TERZA SEZIONE */
+/* FINE SEZIONE PARTNERS */
 
 /* QUARTA SEZIONE */
 
