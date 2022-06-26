@@ -276,14 +276,37 @@ a{
     width: fit-content;
     text-align: center;
     font-size: 20px;
-
 }
 
 /* FINE SEZIONE PARTNERS */
 
-/* QUARTA SEZIONE */
+/* SEZIONE OPERATIONS DROPBOX BUSINESS */
 
+.business-maintitle{
+    font-size: 48px;
+    margin-bottom: 50px;
+}
 
+.cards-business {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.cards-business .cards {
+    width: 30%;
+}
+
+.cards-business img {
+    width: 100%;
+}
+
+.cards-business .business-title {
+    margin: 20px 0;
+}
+
+.business-text{
+    font-size: 20px;
+}
 
 
 
