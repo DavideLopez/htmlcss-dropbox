@@ -224,7 +224,7 @@ a{
     padding: 30px;
 }
 
-hr{
+.plan-content-top hr{
     width: 50px;
     border: 1 px solid grey;
 }
@@ -233,9 +233,9 @@ hr{
     margin-top: 30px;
 }
 
-.col12 .card .card-body{
-    box-sizing: border-box;
-}
+/* .col12 .card-header .card-body .card-content-right a {
+    display: inline-block;
+} */
 
 
 
@@ -379,23 +379,31 @@ hr{
 
 /* FINE SETTIMA SEZIONE */
 
-/* OTTAVA SEZIONE */
+/* OTTAVA SEZIONE FAQ*/
 
-.sect8{
-    margin: auto;
-    max-width: 1100px;
-    height: 400px;
-    border: 2px solid black;
+.faq{
+    width: 70%;
+    margin: 100px 15% 150px 15%;
 }
-
+.faq hr{
+    margin: 30px 0 30px 0;
+}
+.faq h3{
+    display: inline-block;
+}
+.faq i{
+    float: right;   /*  non picchiatemi se ho usato il float :/  */
+    margin-right: 50px;
+}
+.faq:last-child{  /*  (hr) */
+    margin-bottom: 250px;
+}
 /* FINE OTTAVA SEZIONE */
 
 /* FOOTER */
 
-
 .black-footer{
     width: 100%;
-    height: 580px;
     background-color: black;
     color: white;
     padding-top: 120px;
@@ -420,10 +428,9 @@ hr{
 }
 .Language{
     margin-left: calc((100% - 1200px)/5);
+    padding-bottom: 50px;
 }
 .Language hr{
     width: 130px;
     margin-bottom: 50px;
 }
-
-/* ---------------------------------------------------------------- */
