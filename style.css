@@ -160,7 +160,6 @@ a{
 }
 
 .card-wrapper > *{
-    /* border: 1px solid black; */
     padding: 20px;
 }
 
@@ -360,7 +359,6 @@ a{
     color: blue;
     font-size: 16px;
     margin: 100px;
-    /* padding-bottom: 100px; */
     margin-bottom: 100px;
 }
 
@@ -376,10 +374,6 @@ a{
 .carosello .row{
    padding-top: 0;
 }
-
-/* .carosello .col6{
-    aspect-ratio: 1/1;
-} */
 
 .logo-box.box-lightgreen:hover{
     border: 20px solid #D1E9CD;
@@ -438,7 +432,6 @@ a{
 /* slide centrale */
 
 .carosello .slide-center{
-    /* padding: 50px; */
     background-color: #F5F5F5;
 }
 
@@ -527,7 +520,7 @@ font-size: 36px;
     margin-bottom: 250px;
 }
 
-/* FINE OTTAVA SEZIONE */
+/* FINE SEZIONE FAQ */
 
 /* FOOTER */
 
@@ -535,7 +528,7 @@ font-size: 36px;
     width: 100%;
     background-color: black;
     color: white;
-    padding-top: 120px;
+    padding-top: 80px;
 }
 
 .black-footer .colfooter{
@@ -562,4 +555,9 @@ font-size: 36px;
 .Language hr{
     width: 130px;
     margin-bottom: 50px;
+}
+
+.copyr{
+    font-size: 12px;
+    padding-top: 20px;
 }
