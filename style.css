@@ -32,7 +32,7 @@ img{
     flex-wrap: wrap;
 }
 
-a.button{
+a. button{
     display: inline-block;
 }
 
@@ -61,9 +61,6 @@ a.button{
 
 .menu{
     margin-left: auto;
-}
-
-.main-header .menu-item{
 }
 
 a{
@@ -117,7 +114,7 @@ a{
     font-size: 18px;
     background-color: blue;
     color: white;
-    padding: 0 12px;
+    padding: 12px;
     text-align: center;
 }
 
@@ -228,6 +225,9 @@ a{
 .button-cards{
     margin-bottom: 40px;
     font-size: 14px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .buynow{
@@ -237,7 +237,7 @@ a{
 
 .plan-content-top hr{
     width: 50px;
-    border: 1 px solid grey;
+    border: 1px solid grey;
 }
 
 .plan-content-bottom{
@@ -426,7 +426,7 @@ a{
 /* slide centrale */
 
 .carosello .slide-center{
-    padding: 50px;
+    /* padding: 50px; */
     background-color: #F5F5F5;
 }
 
@@ -456,24 +456,32 @@ a{
 
 /* fine slide centrale */
 
-/* FINE SEZIONE CUSTOMERS */
-
-
-
-
-/* FINE SEZIONE */
-
-/* SEZIONE */
-
-.sect7{ 
-    margin: auto;
-    max-width: 1100px;
-    height: 200px;
-    border: 2px solid black;
+.try-dropbox{
     background-color: #B4D0E7;
-} 
+    height: 300px;
+}
 
-/* FINE  SEZIONE */
+.free-trial{
+    height: 50px;
+    width: auto;
+    line-height: 50px;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+    padding-top: 100px;
+    color: #61082B;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+}  
+
+/* FINE SEZIONE CUSTOMERS */
 
 /* SEZIONE FAQ*/
 
