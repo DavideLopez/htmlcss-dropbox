@@ -361,10 +361,19 @@ a{
 
 .col6{
     flex-basis: calc(100% / 2);
+    position: relative;
 }
 
 .carosello .col{
     /* border: 2px solid black; */
+}
+
+.carosello{
+    padding: 50px;
+}
+
+.carosello .row{
+   padding-top: 0;
 }
 
 .carosello .col6{
