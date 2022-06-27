@@ -40,7 +40,7 @@ a.button{
 
 .main-header{
     display: flex;
-    padding:25px 18px;
+    padding:20px;
     align-items: center;
     gap: 20px;
 }
@@ -98,6 +98,12 @@ a{
     margin: 0 auto;
 }
 
+.row{
+    padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .col4{
     flex-basis: calc(100% / 3);
 }
@@ -132,10 +138,6 @@ a{
 
 /* SECONDA SEZIONE PIANI TARIFFARI */
 
-.sect2{
-    margin: auto;
-}
-
 .section-title{
     margin-top: 150px;
     text-align: center;
@@ -158,7 +160,7 @@ a{
 }
 
 .card-wrapper > *{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 20px;
 }
 
@@ -255,11 +257,17 @@ a{
     font-size: 14px;
 }
 
+.card .plan-content-primary{
+    display: flex;
+    justify-content: space-between;
+}
 
-/* .col12 .card-header .card-body .card-content-right a {
-    display: inline-block;
-} */
 
+.plan-content-sec p {
+    font-size: 14px;
+    margin-top: 30px;
+    max-width: 600px;
+}
 
         /* FINE  SEZIONE  CARDS */
 
@@ -274,11 +282,11 @@ a{
 
 
 .leftpart{
-    flex-basis: 50%;
+    flex-basis: 55%;
 }
 
 .rightpart{
-    flex-basis: 50%;
+    flex-basis: 45%;
     margin-left: 50px;
 }
 
@@ -288,14 +296,14 @@ a{
 
 .rightpart .partnertext{
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 16px;
 } 
 
 .partnerbutton {
     display: block;
     margin-top: 30px;
     padding: 10px 20px;
-    border: 1px solid #000;
+    border: 1px solid currentColor;
     width: fit-content;
     text-align: center;
     font-size: 16px;
@@ -328,7 +336,7 @@ a{
 }
 
 .business-text{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /* FINE SEZIONE BUSINESS */
@@ -347,6 +355,106 @@ a{
     margin: 100px;
     padding-bottom: 100px;
 }
+
+.col6{
+    flex-basis: calc(100% / 2);
+}
+
+.carosello .col{
+    /* border: 2px solid black; */
+}
+
+.carosello .col6{
+    /* border: 2px solid red; */
+    aspect-ratio: 1/1;
+}
+
+.logo-box.box-lightgreen:hover{
+    border: 20px solid #D1E9CD;
+}
+
+.logo-box:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.logo-box{
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-box .logo{
+    width: 55%;
+    filter: invert(1);
+}
+
+.box-red{
+    background-color: red;
+}
+
+.box-lightgreen{
+    background-color: lightgreen;
+}
+
+.box-rust{
+    background-color: #61082B;
+}
+
+.box-blue{
+    background-color: #0093CE;
+}
+
+.box-yellow{
+    background-color: #FFD830;
+}
+
+.box-cyan{
+    background-color: #B4D0E7;
+}
+
+.box-bluenavy{
+    background-color: #0D2481;
+}
+
+/* slide centrale */
+
+.carosello .slide-center{
+    padding: 50px;
+    background-color: #F5F5F5;
+}
+
+.slide-logo img{
+    max-height: 90px;
+}
+
+.slide-logo{
+    margin-bottom: 40px;
+}
+
+.slide-quotes{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    align-items: flex-start;
+    font-size: 14px;
+}
+
+.slide-quotes::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100px;
+    background-color: black;
+}
+
+/* fine slide centrale */
 
 /* FINE SEZIONE CUSTOMERS */
 
@@ -373,19 +481,28 @@ a{
     width: 70%;
     margin: 100px 15% 150px 15%;
 }
+
+.faq-title{
+font-size: 36px;
+}
+
 .faq hr{
     margin: 30px 0 30px 0;
 }
+
 .faq h3{
     display: inline-block;
 }
+
 .faq i{
     float: right;   /*  non picchiatemi se ho usato il float :/  */
     margin-right: 50px;
 }
+
 .faq:last-child{  /*  (hr) */
     margin-bottom: 250px;
 }
+
 /* FINE OTTAVA SEZIONE */
 
 /* FOOTER */
