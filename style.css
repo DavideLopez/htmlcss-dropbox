@@ -459,6 +459,7 @@ a{
 .try-dropbox{
     background-color: #B4D0E7;
     height: 300px;
+    color: #61082B;
 }
 
 .free-trial{
@@ -475,7 +476,6 @@ a{
 .container{
     text-align: center;
     padding-top: 100px;
-    color: #61082B;
     font-size: 30px;
     display: flex;
     justify-content: space-between;
